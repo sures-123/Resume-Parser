@@ -1,0 +1,202 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.7.1,<3.8.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"9d036607f",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "tok2vec":[
+
+    ],
+    "ner":[
+      "ACHEIVEMENTS",
+      "ACHIEVEMENTS",
+      "ADDRESS",
+      "CERTIFICATIONS",
+      "EDUCATION",
+      "EMAIL",
+      "EXTRA CIRCULAR",
+      "EXTRA CURRICULAR",
+      "GPA/PERCENTAGE",
+      "GRADUATION",
+      "INTERNSHIP",
+      "JOB ROLE",
+      "LINKEDIN/GITHUB",
+      "NAME",
+      "ONLINE PROFILES",
+      "PERCENTAGE",
+      "PROGRAMMING",
+      "PROJECTS",
+      "SKILLS",
+      "TECHNOLOGICS",
+      "TECHNOLOGIES",
+      "TECHNOLOGIES ",
+      "UNIVERSITY/COLLEGE",
+      "WEB TECHNOLOGIES",
+      "WORK EXPERIANCE",
+      "WORK EXPERIENCE"
+    ]
+  },
+  "pipeline":[
+    "tok2vec",
+    "ner"
+  ],
+  "components":[
+    "tok2vec",
+    "ner"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "ents_f":0.7835031678,
+    "ents_p":0.7608309161,
+    "ents_r":0.8075681581,
+    "ents_per_type":{
+      "NAME":{
+        "p":0.9855907781,
+        "r":0.9606741573,
+        "f":0.972972973
+      },
+      "ADDRESS":{
+        "p":0.9558823529,
+        "r":0.9129213483,
+        "f":0.933908046
+      },
+      "JOB ROLE":{
+        "p":0.7291462218,
+        "r":0.8609501738,
+        "f":0.7895855473
+      },
+      "WORK EXPERIENCE":{
+        "p":0.8099779897,
+        "r":0.7484745763,
+        "f":0.778012685
+      },
+      "GRADUATION":{
+        "p":0.7848275862,
+        "r":0.8988941548,
+        "f":0.8379970545
+      },
+      "SKILLS":{
+        "p":0.7303258977,
+        "r":0.8221620612,
+        "f":0.7735277326
+      },
+      "EMAIL":{
+        "p":0.9851116625,
+        "r":0.9875621891,
+        "f":0.9863354037
+      },
+      "TECHNOLOGIES":{
+        "p":0.6813079551,
+        "r":0.7054067711,
+        "f":0.6931479643
+      },
+      "ACHIEVEMENTS":{
+        "p":0.7323076923,
+        "r":0.8350877193,
+        "f":0.7803278689
+      },
+      "PROJECTS":{
+        "p":0.7409024745,
+        "r":0.7158931083,
+        "f":0.7281831187
+      },
+      "EXTRA CURRICULAR":{
+        "p":0.8796992481,
+        "r":0.9183673469,
+        "f":0.8986175115
+      },
+      "PERCENTAGE":{
+        "p":0.9028776978,
+        "r":0.8932384342,
+        "f":0.8980322004
+      },
+      "CERTIFICATIONS":{
+        "p":0.7536764706,
+        "r":0.7347670251,
+        "f":0.7441016334
+      },
+      "ONLINE PROFILES":{
+        "p":0.9252336449,
+        "r":1.0,
+        "f":0.9611650485
+      },
+      "INTERNSHIP":{
+        "p":0.6,
+        "r":0.3,
+        "f":0.4
+      },
+      "EDUCATION":{
+        "p":0.45,
+        "r":0.140625,
+        "f":0.2142857143
+      },
+      "UNIVERSITY/COLLEGE":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "WEB TECHNOLOGIES":{
+        "p":0.6111111111,
+        "r":0.1067961165,
+        "f":0.1818181818
+      },
+      "GPA/PERCENTAGE":{
+        "p":0.5,
+        "r":0.25,
+        "f":0.3333333333
+      },
+      "PROGRAMMING":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "LINKEDIN/GITHUB":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "TECHNOLOGICS":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "WORK EXPERIANCE":{
+        "p":1.0,
+        "r":0.2,
+        "f":0.3333333333
+      },
+      "ACHEIVEMENTS":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "EXTRA CIRCULAR":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "TECHNOLOGIES ":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      }
+    },
+    "tok2vec_loss":24800.3645171113,
+    "ner_loss":7924.8000155523
+  }
+}
